@@ -73,8 +73,7 @@ int main()
   
     /* start with empty linked list */
     struct node *start = NULL;
-  
-   /
+
     for (i = 0; i< 6; i++)
         insertAtTheBegin(&start, arr[i]);
   
